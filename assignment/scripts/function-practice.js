@@ -31,8 +31,13 @@ console.log(addNumbers( 1, 2));
 // 4. Function to multiply three numbers & return the result
 function multiplyThree( ){
 
+  let total = 2 * 4 * 6
+
+  return total
+
 }
 
+console.log(multiplyThree());
 
 // 5. Function that will return true if a number is positive,
 //    or greater than zero, and false otherwise
