@@ -58,9 +58,16 @@ console.log('The number is less than zero so the answer is', isPositive(-3));
 
 // 6. Function to return the _last_ item in an array. If the
 //    array is empty, return `undefined`.
+let array = []
+
 function getLast( array ) {
 
+  if (array && array.length > 0){
+    return array[array.length -1];
+  }
+    return 'UNDEFINED';
 }
+console.log(getLast(array));
 
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
