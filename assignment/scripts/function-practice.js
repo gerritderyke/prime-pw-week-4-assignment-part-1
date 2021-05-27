@@ -58,7 +58,7 @@ console.log('The number is less than zero so the answer is', isPositive(-3));
 
 // 6. Function to return the _last_ item in an array. If the
 //    array is empty, return `undefined`.
-let array = []
+let array = [2,4,6,8,10];
 
 function getLast( array ) {
 
@@ -74,7 +74,16 @@ console.log(getLast(array));
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
 function find( value, array ){
 
-}
+  for( let i = 0; i < array.length; i++){
+
+    if(value === 8);{
+      return true;
+    }//end true
+      return false;
+
+  }//end for loop
+}//end fucntion
+console.log(find( 7, array));
 
 // ----------------------
 // Stretch Goals
