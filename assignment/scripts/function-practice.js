@@ -74,16 +74,17 @@ console.log(getLast(array));
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
 function find( value, array ){
 
-  for( let i=0; i<array.length; i++){
+  for ( let i = 0; i < array.length; i++){
 
-    if( array[i] === '8');{
+    if ( array[i] === value){
       return true;
     }//end true
-      return false;
   }//end for loop
+  return false;
 
 }//end fucntion
-console.log(find( 12, array));
+console.log(find( 8, array));
+console.log(find(13, array));
 
 // ----------------------
 // Stretch Goals
