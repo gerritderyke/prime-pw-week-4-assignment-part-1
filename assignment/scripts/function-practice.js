@@ -16,10 +16,11 @@ console.log('Test - should say "Hello World!"', hello());
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName( name ) {
 
-  return 'Hello, Jo!';
+  return 'Hello, ' + name;
 }
 // Remember to call the function to test
-console.log(helloName(name));
+console.log(helloName('Gerrit'));
+console.log(helloName('Stacy'));
 
 // 3. Function to add two numbers together & return the result
 function addNumbers( firstNumber, secondNumber ) {
@@ -29,15 +30,15 @@ function addNumbers( firstNumber, secondNumber ) {
 console.log(addNumbers( 1, 2));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
+function multiplyThree(num1, num2, num3){
 
-  let total = 2 * 4 * 6
+  let total = num1 * num2 * num3
 
   return total
 
 }
 
-console.log(multiplyThree());
+console.log(multiplyThree(2,3,4));
 
 // 5. Function that will return true if a number is positive,
 //    or greater than zero, and false otherwise
